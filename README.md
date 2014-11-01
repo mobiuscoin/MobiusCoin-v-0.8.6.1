@@ -19,7 +19,7 @@ MöbiusCoin is an open source project so anyone can get involved with the develo
 
 
 
-MöbiusCoin v0.8.6.0
+MöbiusCoin v0.8.6.1
 
 50 Coins per block
 
