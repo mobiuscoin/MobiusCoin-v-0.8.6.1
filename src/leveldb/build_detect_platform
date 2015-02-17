@@ -1,3 +1,4 @@
+# Fix permissions to allow for execution. Remove this line after correcting file. FEB 17, 2015
 #!/bin/sh
 #
 # Detects OS we're compiling on and outputs a file specified by the first
