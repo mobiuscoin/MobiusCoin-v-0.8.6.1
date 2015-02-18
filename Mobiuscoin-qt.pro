@@ -11,20 +11,20 @@ CONFIG += thread
 
 
 #uncomment the following section to enable building on windows:
-windows:LIBS += -lshlwapi
-LIBS += $$join(BOOST_LIB_PATH,,-L,) $$join(BDB_LIB_PATH,,-L,) $$join(OPENSSL_LIB_PATH,,-L,) $$join(QRENCODE_LIB_PATH,,-L,)
-LIBS += -lssl -lcrypto -ldb_cxx$$BDB_LIB_SUFFIX
-windows:LIBS += -lws2_32 -lole32 -loleaut32 -luuid -lgdi32
-LIBS += -lboost_system-mgw48-mt-s-1_55 -lboost_filesystem-mgw48-mt-s-1_55 -lboost_program_options-mgw48-mt-s-1_55 -lboost_thread-mgw48-mt-s-1_55
-BOOST_LIB_SUFFIX=-mgw48-mt-s-1_55
-BOOST_INCLUDE_PATH=C:/deps/boost_1_55_0
-BOOST_LIB_PATH=C:/deps/boost_1_55_0/stage/lib
-BDB_INCLUDE_PATH=C:/deps/db/build_unix
-BDB_LIB_PATH=C:/deps/db/build_unix
-OPENSSL_INCLUDE_PATH=C:/deps/ssl/include
-OPENSSL_LIB_PATH=C:/deps/ssl
-MINIUPNPC_INCLUDE_PATH=C:/deps/
-MINIUPNPC_LIB_PATH=C:/deps/miniupnpc
+# windows:LIBS += -lshlwapi
+# LIBS += $$join(BOOST_LIB_PATH,,-L,) $$join(BDB_LIB_PATH,,-L,) $$join(OPENSSL_LIB_PATH,,-L,) $$join(QRENCODE_LIB_PATH,,-L,)
+# LIBS += -lssl -lcrypto -ldb_cxx$$BDB_LIB_SUFFIX
+# windows:LIBS += -lws2_32 -lole32 -loleaut32 -luuid -lgdi32
+# LIBS += -lboost_system-mgw48-mt-s-1_55 -lboost_filesystem-mgw48-mt-s-1_55 -lboost_program_options-mgw48-mt-s-1_55 -lboost_thread-mgw48-mt-s-1_55
+# BOOST_LIB_SUFFIX=-mgw48-mt-s-1_55
+# BOOST_INCLUDE_PATH=C:/deps/boost_1_55_0
+# BOOST_LIB_PATH=C:/deps/boost_1_55_0/stage/lib
+# BDB_INCLUDE_PATH=C:/deps/db/build_unix
+# BDB_LIB_PATH=C:/deps/db/build_unix
+# OPENSSL_INCLUDE_PATH=C:/deps/ssl/include
+# OPENSSL_LIB_PATH=C:/deps/ssl
+# MINIUPNPC_INCLUDE_PATH=C:/deps/
+# MINIUPNPC_LIB_PATH=C:/deps/miniupnpc
 
 
 # for boost 1.37, add -mt to the boost libraries
