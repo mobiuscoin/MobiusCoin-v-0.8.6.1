@@ -37,5 +37,5 @@ RPC 21012
 
 P2P 11012
 
-http//www.mobiuscoin.com
+https://mobiuscoin.tk
 
